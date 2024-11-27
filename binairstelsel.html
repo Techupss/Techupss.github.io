@@ -12,6 +12,10 @@
 * {
   box-sizing: border-box;
 }
+  section::after {
+  content: "";
+  display: table;
+  clear: both;
   section {
   background-color: #64a0c8;
 }
@@ -52,11 +56,6 @@ article {
 }
 
 
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 }
 
 
