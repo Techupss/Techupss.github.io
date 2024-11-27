@@ -32,12 +32,21 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 200px;
+  height: 200px; 
   background: #ccc;
   padding: 20px;
 
 }
-
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #64a0c8;
+  height: 300px;
 
 nav ul {
   list-style-type: none;
@@ -48,11 +57,13 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: #64a0c8;
+
 }
 
 
 section::after {
+
   content: "";
   display: table;
   clear: both;
