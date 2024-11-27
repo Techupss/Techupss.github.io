@@ -1,6 +1,98 @@
 
 <!DOCTYPE html> <!--dit is de homepage van mijn site--> <html><!--dit is het html-element-->
 <head>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+  section {
+  background-color: #64a0c8;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  
+header {
+  background-color: #64a0c8;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Home</h2>
+</header>
+
+
+
+<section>
+  <nav>
+  <ul>
+
+<h1> <lil><<a href="index.html">Home</a></li> </h1>
+<h1> <lil><<a href="binairstelsel.html">Portfolio</a></li> </h1>
+<h1> <lil><<a href="kleurmodellen.html">Kleurmodellen</li> </h1>
+  </ul>
+  </nav>
+
+</section>
+
 
 </body>
 </html>
