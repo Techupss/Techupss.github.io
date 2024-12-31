@@ -1,118 +1,122 @@
-<!DOCTYPE html> <!--dit is de homepage van mijn site-->
-<html> <!--dit is het html-element-->
-
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-  section {
-  background-color: #64a0c8;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-header {
-  background-color: #64a0c8;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
+        header {
+            background-color: #64a0c8;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
 
+        nav {
+            float: left;
+            width: 30%;
+            background-color: #ccc;
+            padding: 20px;
+        }
 
-nav {
-  float: left;
-  width: 30%;
-  height: 200px; 
-  background: #ccc;
-  padding: 20px;
+        nav ul {
+            list-style-type: none;
+        }
 
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #64a0c8;
-  height: 300px;
+        nav ul li {
+            margin: 10px 0;
+        }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #64a0c8;
-  
+        nav ul li a:hover {
+            color: #64a0c8;
+        }
 
-}
+        article {
+            float: left;
+            width: 70%;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
 
+        section {
+            background-color: #64a0c8;
+            padding: 20px;
+            margin-top: 20px;
+            clear: both;
+            color: white;
+        }
 
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        section h1 {
+            margin-bottom: 10px;
+        }
 
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
 
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
 </head>
+
 <body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="binairstelsel.html">Portfolio</a></li>
+            <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+        </ul>
+    </nav>
 
-<header>
-  <h2>Portfolio</h2>
-</header>
+    <article>
+        <h2>Welkom op mijn website!</h2>
+        <p>Hier vind je verschillende projecten en opdrachten.</p>
+    </article>
 
-<article>
-  <ul>
-<h1> <lil><<a href="index.html">Home</a></li> </h1>
-<h1> <lil><<a href="binairstelsel.html">Portfolio</a></li> </h1>
-<h1> <lil><<a href="kleurmodellen.html">Kleurmodellen</li> </h1>
-  </ul>
-  </article>
+    <section>
+        <h1>Opdrachten</h1>
+        <ul>
+            <li>Opdracht 1</li>
+            <li>Opdracht 2</li>
+            <li>Opdracht 3</li>
+            <li>Opdracht 4</li>
+            <li>Opdracht 5</li>
+        </ul>
+    </section>
 
-<section>
-      <h1>Opdracht 1</h1>
-  <h1>Opdracht 2</h1>
-  <h1>Opdracht 3</h1>
-  <h1>Opdracht 4</h1>
-<h1>Opdracht 5</h1>
-  <nav>
-
-  </nav>
-
-</section>
-
-
+    <footer>
+        <p>&copy; 2024 Mijn Portfolio</p>
+    </footer>
 </body>
+
 </html>
