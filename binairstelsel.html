@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Kleurmodellen</title>
     <style>
         * {
             box-sizing: border-box;
@@ -27,7 +27,7 @@
         nav {
             float: left;
             width: 30%;
-            background-color: #ccc;
+            background: #ccc;
             padding: 20px;
         }
 
@@ -50,22 +50,21 @@
         }
 
         article {
-            float: left;
+            float: right;
             width: 70%;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #f1f1f1;
         }
 
-        section {
-            background-color: #64a0c8;
-            padding: 20px;
-            margin-top: 20px;
-            clear: both;
-            color: white;
+        article ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
         }
 
-        section h1 {
+        article ul li {
             margin-bottom: 10px;
+            font-size: 18px;
         }
 
         footer {
@@ -74,6 +73,7 @@
             text-align: center;
             color: white;
             margin-top: 20px;
+            clear: both;
         }
 
         @media (max-width: 600px) {
@@ -87,31 +87,28 @@
 
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1>Kleurmodellen</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="binairstelsel.html">Portfolio</a></li>
-            <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
-        </ul>
-    </nav>
-
-    <article>
-        <h2>Welkom op mijn website!</h2>
-        <p>Hier vind je verschillende projecten en opdrachten.</p>
-    </article>
-
     <section>
-        <h1>Opdrachten</h1>
-        <ul>
-            <li>Opdracht 1</li>
-            <li>Opdracht 2</li>
-            <li>Opdracht 3</li>
-            <li>Opdracht 4</li>
-            <li>Opdracht 5</li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="binairstelsel.html">Portfolio</a></li>
+                <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>Opdrachten</h2>
+            <ul>
+                <li>Opdracht 1</li>
+                <li>Opdracht 2</li>
+                <li>Opdracht 3</li>
+                <li>Opdracht 4</li>
+                <li>Opdracht 5</li>
+            </ul>
+        </article>
     </section>
 
     <footer>
